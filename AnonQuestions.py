@@ -13,7 +13,7 @@ user_states = {}
 
 # Список разрешенных получателей, которые могут видеть ссылку на профиль отправителя
 # Вставьте сюда юзернеймы разрешенных получателей
-allowed_recipients = ['Ori_Gatto', 'radima_02', 'nemustafa', 'something_there_7']  # Пример: ['user1', 'user2']
+allowed_recipients = ['Ori_Gatto', 'radima_02', 'nemustafa', 'mia_tae', 'something_there_7']  # Пример: ['user1', 'user2']
 
 async def start(update: Update, context: CallbackContext) -> None:
     if context.args:
